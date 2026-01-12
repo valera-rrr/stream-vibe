@@ -1,9 +1,9 @@
 {
   "routes": [
+    { "src": "/(.*)", "dest": "/index.html" },
     { "src": "/movies", "dest": "/movies.html" },
     { "src": "/show", "dest": "/show.html" },
     { "src": "/subscription", "dest": "/subscription.html" },
-    { "src": "/support", "dest": "/support.html" },
-    { "src": "/(.*)", "dest": "/index.html" }
+    { "src": "/support", "dest": "/support.html" }
   ]
 }
