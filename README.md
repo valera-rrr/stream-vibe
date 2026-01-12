@@ -8,7 +8,7 @@ Multi-page streaming service demo project built with **Minista** and **JSX**.
 
 ## 🌍 Live Demo
 
-👉 https://stream-vibe-aydc-bik342srr-valera-rrrs-projects.vercel.app/
+👉 https://stream-vibe-wxk1.vercel.app/
 
 ---
 
