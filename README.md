@@ -9,7 +9,6 @@ Multi-page streaming service demo project built with **Minista** and **JSX**.
 ## 🌍 Live Demo
 
 👉 https://stream-vibe-wxk1.vercel.app/
-
 ---
 
 ## 🛠 Tech Stack
