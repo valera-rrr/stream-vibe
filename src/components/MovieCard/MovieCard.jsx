@@ -12,7 +12,7 @@ const MovieCard = (props) => {
     released,
     rating,
     season,
-    href = '/move',
+    href = '/movie',
   } = props
 
   return (
@@ -47,7 +47,7 @@ const MovieCard = (props) => {
         )}
 
         {rating && (
-          <Badge className="movie-card__rating-badge">
+          <Badge>
             <RatingView {...rating} />
           </Badge>
         )}
@@ -63,7 +63,7 @@ const MovieCard = (props) => {
         )}
 
         {released && (
-          <Badge className="movie-card__released-badge">
+          <Badge className="movie-card__released-badge" isBig>
             Released at <time className="movie-card__released-badge-label" dateTime={released.dateTime}>{released.label}</time>
           </Badge>
         )}

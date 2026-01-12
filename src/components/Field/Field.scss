@@ -7,7 +7,7 @@
   &__label {
     font-size: fluid-to-laptop(18, 16);
     font-weight: 600;
-    color: var(--colo-white);
+    color: var(--color-white);
   }
 
   &__required-star {
@@ -23,7 +23,7 @@
   &__control {
     width: 100%;
     height: fluid-to-laptop(67, 53);
-    padding-inline: fluid-to-laptop(20, 16);
+    padding-inline: var(--field-padding-x);
     color: var(--color-white);
     background-color: var(--color-black-08);
     border: var(--border);
